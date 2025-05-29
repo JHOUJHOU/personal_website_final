@@ -8,6 +8,6 @@
   - 漢堡選單、Swiper、Modal 效果呈現
 
 ## 環境
-  - Vite 
+  - Vite
   - Git
   - HTML、CSS/SCSS
