@@ -1,0 +1,51 @@
+.banner-text {
+  font-size: 120px;
+  @include pad() {
+    font-size: max(52px, calc(((100vw / 2) - 160px) / 6));
+  }
+  @include phone() {
+    font-size: 52px;
+  }
+  @include min-phone() {
+    font-size: max(32px, calc(((100vw / 2) - 160px) / 6));
+  }
+}
+.banner-intro {
+  width: 56%;
+  margin-right: 80px;
+  margin-left: auto;
+  margin-top: -160px;
+  position: relative;
+  z-index: 2;
+  @include phone() {
+    width: 100%;
+    margin-right: auto;
+    margin-top: -200px;
+  }
+}
+.case-border {
+  width: 30px;
+  border: 2.5px solid $primary;
+  border-radius: 8px;
+  margin-top: 18.75px;
+  margin-bottom: 18.75px;
+}
+.case-tip-right {
+  width: 45%;
+  margin-left: -36px;
+  @include phone() {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+.case-tip-left {
+  width: 45%;
+  margin-right: -36px;
+  position: relative;
+  z-index: 2;
+  @include phone() {
+    width: 100%;
+    margin-right: auto;
+    z-index: auto;
+  }
+}

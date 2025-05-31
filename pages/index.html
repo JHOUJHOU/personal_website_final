@@ -9,16 +9,82 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <div>
-      <div class="d-flex">
-        <div class="bg-hero-section"></div>
-        <div class="bg-hero-section-two d-flex flex-column justify-content-center ps-11">
-          <h1 class="fs-1 fw-900 text-primary mb-3">Alyse Wang</h1>
-          <p class="fs-3 fw-bold text-primary">前端工程師 & 職涯諮詢師</p>
+    <section class="bg-light">
+      <div class="d-flex flex-md-row flex-column">
+        <div class="w-md-50 w-100 bg-hero-section"></div>
+        <div class="w-md-50 w-100 bg-hero-section-two d-flex flex-column justify-content-md-center justify-content-start pt-5">
+          <div class="ms-md-11 ms-5">
+            <h1 class="banner-text fw-900 text-primary text-left mb-3">Alyse&nbsp;Wang</h1>
+            <p class="fs-3 fw-bold text-primary">前端工程師 & 職涯諮詢師</p>
+          </div>
         </div>
       </div>
-      <div></div>
-    </div>
+    </section>
+    <section class="px-3 bg-light">
+      <div class="banner-intro bg-white">
+        <div class="px-7 py-11">
+          <p class="mb-4 fs-3">嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
+          <p class="mb-4 fs-3">擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
+          <ul class="d-flex">
+            <li class="icon icon-youtube me-1"></li>
+            <li class="icon icon-onlyIcon me-1"></li>
+            <li class="icon icon-fb me-1"></li>
+            <li class="icon icon-linkedin me-1"></li>
+            <li class="icon icon-ig me-1"></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-light py-11">
+      <div class="container-xxl px-3">
+        <h2 class="fs-md-2 fs-8 fw-bold mb-6">專業服務與方案</h2>
+        <ul class="px-md-12 px-0">
+          <li class="mb-md-10 mb-6 d-flex align-items-center flex-md-row flex-column">
+            <div class="case-resume"></div>
+            <div class="case-tip-right px-5 p-5 bg-white">
+              <p class="case-border"></p>
+              <h3 class="fs-3 fw-bold mb-2">履歷健檢</h3>
+              <p class="text-secondary">履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
+            </div>
+          </li>
+          <li class="mb-md-10 mb-6 d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="case-tip-left px-5 p-5 bg-white">
+              <p class="case-border"></p>
+              <h3 class="fs-3 fw-bold mb-2">網頁開發</h3>
+              <p class="text-secondary">想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
+            </div>
+            <div class="case-online"></div>
+          </li>
+          <li class="mb-md-10 mb-6 d-flex align-items-center flex-md-row flex-column">
+            <div class="case-development"></div>
+            <div class="case-tip-right px-5 p-5 bg-white">
+              <p class="case-border"></p>
+              <h3 class="fs-3 fw-bold mb-2">網頁開發</h3>
+              <p class="text-secondary">想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
+            </div>
+          </li>
+          <li class="mb-md-10 mb-6 d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="case-tip-left px-5 p-5 bg-white">
+              <p class="case-border"></p>
+              <h3 class="fs-3 fw-bold mb-2">企業內訓</h3>
+              <p class="text-secondary">想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
+            </div>
+            <div class="case-training"></div>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-end flex-md-row flex-column align-items-md-center align-items-end">
+          <p class="fs-3 fw-bold me-md-2 me-0 mb-md-0 mb-2">聯繫我，取得更多資訊！</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <%- include('./layout/footer'); -%>
 
