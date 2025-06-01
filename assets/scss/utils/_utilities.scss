@@ -723,6 +723,7 @@ $utilities: map-merge(
         4: var(--#{$prefix}border-radius-xl),
         5: var(--#{$prefix}border-radius-xxl),
         circle: 50%,
+        40: 40px,
         pill: var(--#{$prefix}border-radius-pill)
       )
     ),

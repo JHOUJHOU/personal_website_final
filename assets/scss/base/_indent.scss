@@ -1,0 +1,21 @@
+.article-indent-one {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.article-indent-two {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.readyBtn {
+  border: 1px solid $black;
+  color: $secondary;
+  border-radius: 40px;
+}
+.readyBtn:hover {
+  background: $primary;
+  color: $white;
+}

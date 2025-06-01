@@ -1,0 +1,46 @@
+.swiper-arrow {
+  position: relative;
+}
+.blog-mySwiper {
+  .swiper-slide {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+.swiper-blog-next {
+  background: $white;
+  color: $primary;
+}
+.swiper-blog-prev,
+.swiper-blog-next {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 55%;
+  z-index: 15;
+  background: $white;
+  color: $info;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  @include phone() {
+    top: auto;
+  }
+}
+.swiper-blog-prev {
+  left: 24px;
+  @include phone() {
+    left: auto;
+    right: 80px;
+  }
+}
+.swiper-blog-next {
+  right: 24px;
+  background: $white;
+  color: $primary;
+}
+.swiper-blog-prev:hover {
+  background: $white;
+  color: $primary;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
