@@ -55,7 +55,7 @@
 .bg-photo-consult {
   width: 745px;
   height: 626px;
-  @include phone() {
+  @include pad() {
     width: 100%;
   }
 }
@@ -147,4 +147,11 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.startSubscription {
+  color: $primary;
+}
+.startSubscription:hover {
+  background: $primary;
+  color: $white;
 }
