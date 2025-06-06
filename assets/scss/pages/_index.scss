@@ -63,7 +63,7 @@
   width: 526px;
   height: 296px;
   margin-left: -219px;
-  @include phone() {
+  @include pad() {
     width: 100%;
     height: 264px;
     margin-left: auto;
@@ -75,7 +75,7 @@
   width: 526px;
   height: 312px;
   margin-top: -40px;
-  @include phone() {
+  @include pad() {
     width: 100%;
     height: 256px;
     margin-top: auto;
@@ -97,57 +97,6 @@
   color: $white;
 }
 
-.podcastInput {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.podcastInput input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 16px;
-  width: 16px;
-  border-radius: 16%;
-  background-color: $secondary;
-}
-.podcastInput input:checked ~ .checkmark {
-  background-color: $primary;
-  border-radius: 16%;
-}
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-.podcastInput input:checked ~ .checkmark:after {
-  display: block;
-}
-.podcastInput .checkmark:after {
-  left: 6px;
-  top: 3px;
-  width: 5px;
-  height: 8px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
 .startSubscription {
   color: $primary;
 }

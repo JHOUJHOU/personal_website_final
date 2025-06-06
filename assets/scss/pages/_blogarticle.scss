@@ -1,0 +1,21 @@
+.article-content {
+  width: 636px;
+  @include phone() {
+    width: 100%;
+  }
+}
+/* 圓點 */
+.content-bullets {
+    list-style: disc;
+}
+/* 數字 */
+.content-numbers {
+    list-style: decimal;
+}
+.pageprev,.pagenext {
+  color: $secondary;
+}
+.pageprev:hover,.pagenext:hover {
+  color: $white;
+  background: $primary;
+}

@@ -169,3 +169,53 @@
     height: 440px;
   }
 }
+/* blog */
+.bg-hero-section-blog{
+  background-image: url("/assets/images/index/Hero\ Section2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 843px;
+  @include phone() {
+    height: 180px;
+  }
+}
+.bg-about-section{
+  background-image: url("/assets/images/blog/About Section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 640px;
+  @include phone() {
+    height: 375px;
+  }
+}
+/* blogarictle */
+.photo-base {
+  background-image: url("/assets/images/blog-content/content1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+}
+.photo-frame {
+  background-image: url("/assets/images/blog-content/content2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+}
+.photo-community {
+  background-image: url("/assets/images/blog-content/content3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+}
+.photo-conclusion {
+  background-image: url("/assets/images/blog-content/content4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+}

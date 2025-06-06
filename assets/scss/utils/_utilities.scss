@@ -200,6 +200,7 @@ $utilities: map-merge(
       class: w,
       values: (
         25: 25%,
+        30: 30%,
         50: 50%,
         56: 56%,
         75: 75%,
@@ -733,6 +734,7 @@ $utilities: map-merge(
         4: var(--#{$prefix}border-radius-xl),
         5: var(--#{$prefix}border-radius-xxl),
         circle: 50%,
+        24: 24px,
         40: 40px,
         pill: var(--#{$prefix}border-radius-pill)
       )

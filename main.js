@@ -1,5 +1,7 @@
 import './assets/scss/all.scss';
 
+
+
 var swiper = new Swiper(".blog-mySwiper", {
   slidesPerView: 1,
   spaceBetween: 30,

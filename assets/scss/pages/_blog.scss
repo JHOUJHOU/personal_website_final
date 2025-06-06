@@ -1,0 +1,40 @@
+.newArticleText {
+  width: 636px;
+  @include pad() {
+    width: 100%;
+  }
+}
+.search-item {
+  width: 416px;
+  @include pad() {
+    width: 100%;
+  }
+}
+.bi-search {
+  margin-right: 10px;
+}
+.article-list {
+  margin: 0px -12px;
+    @include pad() {
+      margin: 0px;
+    }
+  .article-item {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+    @include pad() {
+      width: 100%;
+    }
+  }
+}
+.page-link.active {
+  color: $primary;
+}
+.page-link {
+  color: $secondary;
+}
+.page-link:hover {
+  color: $primary;
+}
